@@ -18,12 +18,12 @@
                 <form action="pergunta2.php" method="post">
                     <h3>Pergunta 1</h3>
                     <label for="1perg">Qual a autura do professor Paulinho?</label><br>
-                    <input type="radio" id="perg" name="primeira">1.60m<br>
-                    <input type="radio" id="perg" name="primeira">1.50m<br>
-                    <input type="radio" id="perg" name="primeira">1.55m<br>
-                    <input type="radio" id="perg" name="primeira">1.70m<br><br> 
+                    <input type="radio" class="perg" name="primeira">1.60m<br>
+                    <input type="radio" class="perg" name="primeira">1.50m<br>
+                    <input type="radio" class="perg" name="primeira">1.55m<br>
+                    <input type="radio" class="perg" id="pergCerta" name="primeira">1.70m<br><br> 
 
-                    <input type="submit" value="Enviar">
+                    <input type="submit" value="Enviar" id="botao">
                     
                 </form>
             </div>

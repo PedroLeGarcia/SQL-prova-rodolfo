@@ -18,12 +18,12 @@
                 <form action="pergunta3.php" method="post">
                     <h3>Pergunta 2</h3>
                     <label for="1perg">Que dia eu vou me matar?</label><br>
-                    <input type="radio" id="perg" name="primeira">Hoje<br>
-                    <input type="radio" id="perg" name="primeira">Amanhã<br>
-                    <input type="radio" id="perg" name="primeira">Ontem<br>
-                    <input type="radio" id="perg" name="primeira">Anteontem<br><br> 
+                    <input type="radio" class="perg" id="pergCerta" name="primeira">Hoje<br>
+                    <input type="radio" class="perg" name="primeira">Amanhã<br>
+                    <input type="radio" class="perg" name="primeira">Ontem<br>
+                    <input type="radio" class="perg" name="primeira">Anteontem<br><br> 
 
-                    <input type="submit" value="Enviar">
+                    <input type="submit" value="Enviar" id="botao">
                     
                 </form>
             </div>

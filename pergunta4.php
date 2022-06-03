@@ -18,12 +18,12 @@
                 <form action="pergunta5.php" method="post">
                     <h3>Pergunta 4</h3>
                     <label for="1perg">Lorem </label><br>
-                    <input type="radio" id="perg" name="primeira">Lorem<br>
-                    <input type="radio" id="perg" name="primeira">Lorem<br>
-                    <input type="radio" id="perg" name="primeira">Lorem<br>
-                    <input type="radio" id="perg" name="primeira">Lorem<br><br> 
+                    <input type="radio" class="perg" name="primeira">Lorem<br>
+                    <input type="radio" class="perg" id="pergCerta" name="primeira">Lorem<br>
+                    <input type="radio" class="perg" name="primeira">Lorem<br>
+                    <input type="radio" class="perg" name="primeira">Lorem<br><br> 
 
-                    <input type="submit" value="Enviar">
+                    <input type="submit" value="Enviar" id="botao">
                     
                 </form>
             </div>
