@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+:root{
+    --principal-bg-color: #323232;
+    --secundaria-color:#f1f1f1;
+    --contraste-color: #841d86;
+}
+
 html{
     margin:0 auto;
 }
 body{
-    background: #323232;
-    color:white;
+    background: var(--principal-bg-color);
+    color:var(--secundaria-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1,5rem;
 }
 .containe{
     display: flex;
@@ -11,4 +20,37 @@ body{
     align-items: center;
     align-content: center;
     margin-top:10rem ;
+}
+
+.pergunta{
+    padding: 5px;
+    cursor: pointer;
+}
+#botao{
+    background: var(--contraste-color);
+    border-radius: 10px;
+    padding: 7px;
+    
+}
+#botao:hover{
+    background: var(--contraste-color);
+    border-radius: 11px;
+    padding: 8px;
+}
+
+label{
+    padding: 5px;
+}
+input[type="radio"]{
+    -webkit-appearance: none;
+    background-color: var(--secundaria-color);
+    width: 15px;
+    height: 15px;
+
+    cursor: pointer;
+}
+input[type="radio"]:checked{
+    background-color: var(--contraste-color);
+    width: 17px;
+    height: 17px
 }
